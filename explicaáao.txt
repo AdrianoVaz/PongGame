@@ -1,0 +1,25 @@
+Features novas:
+- Foi acrescentado " Press Enter to Play "
+- Foi acrescentado " GAME PAUSED " com um gif ao lado esquerdo quando o jogo está parado através do espaço.
+- Foi acrescentado " Player 1 Loses! " com um gif e "Player 2 Wins! " com outro gif quando o player 2 ganha;
+- Foi acrescentado " Player 1 Wins! " com um gif e "Player 2 Loses! " com outro gif quando o player 1 ganha;
+- Foi acrescentado uma Bonus Phase quando o jogo está a demorar muito tempo sem nenhum jogador marcar pontos;
+- O jogador em desvantagem em relação a número de pontos terá uma raquete maior que baterá na bola com mais velocidade dependendo da diferença entre os pontos;
+- Quando o jogo termina a bola não sai do campo, simplesmente o jogo para ao bater na linha esquerda ou direita; 
+- Tanto como no PAUSE como quando a bola sai do campo é ímpossivel fazer o que quer que seja a não ser carregar nas teclas correspondentes para cada situação ( espaço durante o PAUSE e ENTER após a ronda ter terminado ).
+
+Bonus phase:
+- Aparece um texto na parte superior a dizer " BONUS ACTIVATED " com um gif de cada lado;
+- Música nova quando bonus está activado;
+- O vencedor dessa ronda ganhará 5 pontos em vez de 1 ponto.
+
+Há 5 músicas, uma para cada situação:
+- Uma que só toca no inicio até o ENTER ser carregado pela primeira vez inicializando assim o jogo;
+- Player 1 está a ganhar;
+- Player 2 está a ganhar;
+- Empate;
+- Bonus Phase activa.
+
+Há sons quando a bola bate nas raquetes ou nas paredes.
+
+Se for necessário mudar a velocidade base da bola altere na variável " velocidade_bola "
